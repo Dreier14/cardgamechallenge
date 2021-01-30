@@ -1,0 +1,35 @@
+.background{
+    background-color: grey;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.cardPlacement{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 15px;
+    background-color: grey;
+    padding: 10px;
+    margin: auto;
+    justify-items: center;
+}
+
+.deckOne{
+    padding: 40% 0;
+    font-size: 6em;
+    text:bold;
+    height: 250px;
+    width: 125px;
+    background-color:blue;
+    border-radius: 5%;
+    color:blue;
+    text-align: center;
+}
+
+
+.text{
+  padding: 50% 0;
+  text-align: center;
+  cursor: crosshair;
+}
+
